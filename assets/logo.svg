@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" width="640" height="160">
+  <defs>
+    <linearGradient id="dropGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2C87A8"/>
+      <stop offset="100%" stop-color="#134B60"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Emblem: pipe-ring frame -->
+  <g transform="translate(10,10)">
+    <circle cx="70" cy="70" r="66" fill="none" stroke="#10222E" stroke-width="4"/>
+    <circle cx="70" cy="70" r="58" fill="none" stroke="#B5651D" stroke-width="2.5" stroke-dasharray="1 7" stroke-linecap="round"/>
+
+    <!-- water drop -->
+    <path d="M70 30 C 88 56, 100 72, 100 90 C 100 108, 86 120, 70 120 C 54 120, 40 108, 40 90 C 40 72, 52 56, 70 30 Z"
+          fill="url(#dropGrad)"/>
+
+    <!-- lightning bolt cut through the drop -->
+    <path d="M78 46 L56 88 L68 88 L60 116 L92 74 L78 74 Z"
+          fill="#E8A33D" stroke="#10222E" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(160,0)">
+    <text x="0" y="72" font-family="'Big Shoulders Display', 'Arial Narrow', sans-serif" font-weight="700" font-size="54" fill="#10222E" letter-spacing="0.5">AVER&#205;AS</text>
+    <text x="0" y="120" font-family="'Big Shoulders Display', 'Arial Narrow', sans-serif" font-weight="700" font-size="54" fill="#B5651D" letter-spacing="0.5">24H<tspan fill="#10222E" font-size="30" dy="-4"> HUELVA</tspan></text>
+    <text x="2" y="140" font-family="'Source Sans 3', Arial, sans-serif" font-weight="600" font-size="15" fill="#1C6E8C" letter-spacing="2">FONTANER&#205;A &amp; ELECTRICIDAD · SIN OBRAS</text>
+  </g>
+</svg>
