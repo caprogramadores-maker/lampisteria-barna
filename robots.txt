@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://averias24h.net/sitemap.xml
