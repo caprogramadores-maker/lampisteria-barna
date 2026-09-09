@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="100" fill="#12181D"/>
+  <!-- Pipe/wrench silhouette forming an L -->
+  <path d="M72 38
+           h28
+           a4 4 0 0 1 4 4
+           v84
+           h56
+           a4 4 0 0 1 4 4
+           v28
+           a4 4 0 0 1 -4 4
+           H100
+           a32 32 0 0 1 -32 -32
+           V42
+           a4 4 0 0 1 4 -4 Z"
+        fill="#D98A3D"/>
+  <!-- Lightning-bolt notch cut into the bend (electricidad) -->
+  <polygon points="88,86 108,86 96,112 112,112 82,146 92,116 76,116"
+           fill="#12181D"/>
+  <!-- Keyhole cut into the arm end (cerrajería) -->
+  <circle cx="152" cy="146" r="10" fill="#12181D"/>
+  <polygon points="147,153 157,153 153,168 151,168" fill="#12181D"/>
+</svg>
